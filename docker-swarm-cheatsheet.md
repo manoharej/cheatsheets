@@ -71,4 +71,6 @@ docker service create --mode global --name st-logagent \
 -e LOGS_TOKEN=YourLogsToken \
 sematext/logagent:latest
 ```
+docker volume create my-vol
+docker volume rm my-vol
 
